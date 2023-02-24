@@ -82,3 +82,32 @@ main{
 .cntrBoxImg img{
     
 }
+footer{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 720px;
+    border: 1px solid hwb(0 87% 13% / 0.5);
+    padding: 10px;
+}
+footer input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: .9em;
+}
+.cntrEnvio{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.cntrEnvio svg{
+    width: 20px;
+    height: 20px;
+}
