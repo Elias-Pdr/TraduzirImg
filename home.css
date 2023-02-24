@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-html{
-    background-color: aliceblue;
-}
+
 body{
     max-width: 720px;
     background-color: white;
@@ -18,6 +16,7 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid hwb(0 87% 13% / 0.5);
 }
 .cntrAvatar{
     background-color: grey;
@@ -53,4 +52,33 @@ header{
     font-size: 1em;
     font-weight: bold;
     color: blue;
+}
+main{
+    padding: 10px 30px;
+}
+.cntrSaldo{
+    padding-top: 20px;
+}
+.cntrSaldo p{
+    font-size: 1em;
+
+}
+.cntrSaldo p span{
+    font-weight: bold;
+    font-size: .9em;
+    margin-left: 10px;
+}
+.cntrBoxImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.cntrBoxImg p{
+    margin-bottom: 10px;
+}
+.cntrBoxImg img{
+    
 }
