@@ -129,3 +129,26 @@ footer input{
 .cntrEnvio path{
     fill: var(---colorDestaque);
 }
+
+.ctnrInputs{
+    display: none;
+    align-items: center;
+
+}
+.ctnrInputs div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+}
+.ctnrInputs input{
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+
+}
+
+.ctnrInputs button{
+    padding: 10px;
+
+}
